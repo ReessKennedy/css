@@ -1,0 +1,125 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Modern CSS spacing measurments</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <style type="text/css">
+    body { xfont-size: 12px; }
+
+    h2 { margin-bottom: 0px; }
+
+    section .div1 { background: pink; padding: 20px; margin-top: 10px;  }
+    section .div2 { background: yellow; padding: 20px; margin: 0px auto;  }
+    section .div3 { background: green; padding: 10px; margin: 0px auto; color: #ddd; font-size: 30px; }
+    section .div3 p {  margin: 0; padding: 0p; }
+
+    .px .div1 { width: 400px; }
+    .px .div2 { width: 200px;}
+    .px .div3 { width: 100px; }
+    .px .div3 p {  }
+
+    .percent .div1 { width: 400px; }
+    .percent .div2 { width: 200px; }
+    .percent .div3 { width: 100%; }
+    .percent .div3 p {  }
+
+    .em .div1 { width: 400px; }
+    .em .div2 { width: 200px; }
+    .em .div3 { width: 30em; }
+    .em .div3 p {  font-size: 2em; }
+
+    .rem .div1 { width: 400px; }
+    .rem .div2 { width: 200px; }
+    .rem .div3 { width: 100rem; }
+    .rem .div3 p { font-size: 2rem; }
+
+    .vw .div1 { width: 400px; }
+    .vw .div2 { width: 200px }
+    .vw .div3 { width: 100vw; }
+    .vw .div3 p { font-size: 2vw; }
+
+  </style>
+
+</head>
+
+<body>
+
+    <h1>Modern CSS spacing measurments</h1>
+    * charting relationships clearly<br>
+    * tracking changes in CSS spacing features<br>
+    
+    <hr> 
+    <section class="px">
+    <h2>px - pixels</h2>
+
+    <div class="div1">
+        <div class="div2">
+            <div class="div3">
+                <p>3 inner text<p>
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+    <section class="percent">
+        <h2>% - percentages</h2>
+    
+        <div class="div1">
+            <div class="div2">
+                <div class="div3">
+                    <p>3 inner text<p>
+                </div>
+            </div>
+        </div>
+     </section>
+
+
+     <section class="em">
+        <h2>% - em</h2>
+        [font at 2em, tied just to parent element]
+        
+
+        <div class="div1">
+            <div class="div2">
+                <div class="div3">
+                    <p>3 inner text<p>
+                </div>
+            </div>
+        </div>
+     </section>
+
+
+     <section class="rem">
+        <h2>% - rem</h2>
+    
+        <div class="div1">
+            <div class="div2">
+                <div class="div3">
+                    <p>3 inner text<p>
+                </div>
+            </div>
+        </div>
+     </section>
+
+    
+     <section class="vw">
+        <h2>% - vw</h2>
+    
+        <div class="div1">
+            <div class="div2">
+                <div class="div3">
+                    <p>3 inner text<p>
+                </div>
+            </div>
+        </div>
+     </section>
+
+
+</body>
+</html>
